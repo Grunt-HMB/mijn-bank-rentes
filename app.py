@@ -1,10 +1,3 @@
-import sys
-import asyncio
-import traceback
-
-if sys.platform.startswith("win"):
-    asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
-
 import streamlit as st
 import pandas as pd
 from datetime import datetime
@@ -66,27 +59,23 @@ def run_scrapers():
             if df is not None and not df.empty:
                 df["Bank opgehaald via"] = naam
                 alle_dataframes.append(df)
-
                 logregels.append({
                     "Bank": naam,
                     "Status": "OK",
-                    "Melding": f"{len(df)} rijen opgehaald",
-                    "Details": ""
+                    "Melding": f"{len(df)} rijen opgehaald"
                 })
             else:
                 logregels.append({
                     "Bank": naam,
                     "Status": "Geen data",
-                    "Melding": "Scraper gaf geen rijen terug",
-                    "Details": ""
+                    "Melding": "Scraper gaf geen rijen terug"
                 })
 
         except Exception as e:
             logregels.append({
                 "Bank": naam,
                 "Status": "Fout",
-                "Melding": repr(e),
-                "Details": traceback.format_exc()
+                "Melding": str(e)
             })
 
         progress.progress(index / totaal_taken)
@@ -108,15 +97,6 @@ if st.button("🚀 Start alle scrapers"):
 
     st.subheader("📋 Logboek")
     st.dataframe(log_df, use_container_width=True)
-
-    fouten_df = log_df[log_df["Status"] == "Fout"]
-
-    if not fouten_df.empty:
-        st.subheader("❌ Details van fouten")
-
-        for _, rij in fouten_df.iterrows():
-            with st.expander(f"Fout bij {rij['Bank']}"):
-                st.code(rij["Details"])
 
     if not totaal_df.empty:
         st.subheader("📊 Alle bankrentes")
