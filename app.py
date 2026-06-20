@@ -30,11 +30,11 @@ st.set_page_config(
     layout="wide"
 )
 
+st.title("🏦 Centrale Bankrente Scraper")
+
 LAATSTE_CSV = "laatste_bankrentes.csv"
 LAATSTE_LOG = "laatste_log.csv"
-LAATSTE_INFO = "laatste_update.txt"
-
-st.title("🏦 Bankrentes België")
+LAATSTE_TIJD = "laatste_tijd.txt"
 
 taken = [
     {"naam": "BNP Paribas Fortis", "func": bnp_fortis.scrape},
@@ -109,16 +109,13 @@ def run_scrapers():
 
 
 def toon_laatste_resultaat():
-    st.subheader("📊 Laatste gevonden bankrentes")
-
-    if os.path.exists(LAATSTE_INFO):
-        with open(LAATSTE_INFO, "r", encoding="utf-8") as f:
-            laatste_update = f.read().strip()
-        st.info(f"Laatste update: {laatste_update}")
-    else:
-        st.warning("Er is nog geen vorige run gevonden.")
+    if os.path.exists(LAATSTE_TIJD):
+        with open(LAATSTE_TIJD, "r", encoding="utf-8") as f:
+            laatste_tijd = f.read().strip()
+        st.info(f"Laatste run: {laatste_tijd}")
 
     if os.path.exists(LAATSTE_CSV):
+        st.subheader("📊 Laatste opgeslagen bankrentes")
         df = pd.read_csv(LAATSTE_CSV, sep=";", encoding="utf-8-sig")
         st.dataframe(df, use_container_width=True)
 
@@ -135,42 +132,34 @@ def toon_laatste_resultaat():
             mime="text/csv"
         )
     else:
-        st.info("Nog geen opgeslagen resultaat beschikbaar.")
-
-    if os.path.exists(LAATSTE_LOG):
-        with st.expander("📋 Laatste logboek bekijken"):
-            log_df = pd.read_csv(LAATSTE_LOG, sep=";", encoding="utf-8-sig")
-            st.dataframe(log_df, use_container_width=True)
+        st.info("Nog geen vorige resultaten gevonden.")
 
 
-def controleer_wachtwoord():
+def wachtwoord_ok():
     st.sidebar.subheader("🔒 Beheer")
 
     wachtwoord = st.sidebar.text_input(
-        "Wachtwoord",
+        "Wachtwoord om scraper te starten",
         type="password"
     )
 
-    juist_wachtwoord = st.secrets.get("APP_PASSWORD", "")
+    juist = st.secrets.get("APP_PASSWORD", "")
 
-    if wachtwoord and wachtwoord == juist_wachtwoord:
-        st.sidebar.success("Ingelogd")
+    if wachtwoord == "":
+        return False
+
+    if wachtwoord == juist:
+        st.sidebar.success("Toegang OK")
         return True
 
-    if wachtwoord:
-        st.sidebar.error("Fout wachtwoord")
-
+    st.sidebar.error("Fout wachtwoord")
     return False
 
 
 toon_laatste_resultaat()
 
-is_admin = controleer_wachtwoord()
-
-if is_admin:
-    st.sidebar.markdown("---")
-
-    if st.sidebar.button("🚀 Scraper nu starten"):
+if wachtwoord_ok():
+    if st.sidebar.button("🚀 Start alle scrapers"):
         totaal_df, log_df = run_scrapers()
 
         datumtijd = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
@@ -189,8 +178,16 @@ if is_admin:
             encoding="utf-8-sig"
         )
 
-        with open(LAATSTE_INFO, "w", encoding="utf-8") as f:
+        with open(LAATSTE_TIJD, "w", encoding="utf-8") as f:
             f.write(datumtijd)
 
+        st.subheader("📋 Logboek")
+        st.dataframe(log_df, use_container_width=True)
+
+        if not totaal_df.empty:
+            st.subheader("📊 Nieuwe bankrentes")
+            st.dataframe(totaal_df, use_container_width=True)
+
         st.success(f"Nieuwe gegevens opgeslagen op {datumtijd}")
-        st.rerun()
+else:
+    st.sidebar.info("Alleen met wachtwoord kan je de scraper starten.")
