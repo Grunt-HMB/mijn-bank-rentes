@@ -1,7 +1,10 @@
+import os
 import sys
 import asyncio
 import traceback
-import os
+import subprocess
+
+os.environ["PLAYWRIGHT_BROWSERS_PATH"] = "0"
 
 if sys.platform.startswith("win"):
     asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
@@ -9,6 +12,24 @@ if sys.platform.startswith("win"):
 import streamlit as st
 import pandas as pd
 from datetime import datetime
+
+st.set_page_config(
+    page_title="Bankrentes Scraper",
+    layout="wide"
+)
+
+
+def installeer_playwright_chromium():
+    try:
+        subprocess.run(
+            [sys.executable, "-m", "playwright", "install", "chromium"],
+            check=True
+        )
+    except Exception as e:
+        st.error(f"Playwright Chromium installatie mislukt: {e}")
+
+
+installeer_playwright_chromium()
 
 from scrapers import (
     belfius,
@@ -23,11 +44,6 @@ from scrapers import (
     crelan,
     cph,
     vdk,
-)
-
-st.set_page_config(
-    page_title="Bankrentes Scraper",
-    layout="wide"
 )
 
 st.title("🏦 Centrale Bankrente Scraper")
@@ -58,8 +74,6 @@ def run_scrapers():
 
     progress = st.progress(0)
     status = st.empty()
-
-    totaal_taken = len(taken)
 
     for index, taak in enumerate(taken, start=1):
         naam = taak["naam"]
@@ -94,15 +108,11 @@ def run_scrapers():
                 "Details": traceback.format_exc()
             })
 
-        progress.progress(index / totaal_taken)
+        progress.progress(index / len(taken))
 
     status.success("Scraping voltooid.")
 
-    if alle_dataframes:
-        totaal_df = pd.concat(alle_dataframes, ignore_index=True)
-    else:
-        totaal_df = pd.DataFrame()
-
+    totaal_df = pd.concat(alle_dataframes, ignore_index=True) if alle_dataframes else pd.DataFrame()
     log_df = pd.DataFrame(logregels)
 
     return totaal_df, log_df
@@ -111,9 +121,7 @@ def run_scrapers():
 def toon_laatste_resultaat():
     if os.path.exists(LAATSTE_TIJD):
         with open(LAATSTE_TIJD, "r", encoding="utf-8") as f:
-            laatste_tijd = f.read().strip()
-
-        st.info(f"Laatste run: {laatste_tijd}")
+            st.info(f"Laatste run: {f.read().strip()}")
     else:
         st.info("Nog geen vorige run gevonden.")
 
@@ -209,22 +217,6 @@ if wachtwoord_ok():
         if not totaal_df.empty:
             st.subheader("📊 Nieuwe bankrentes")
             st.dataframe(totaal_df, use_container_width=True)
-
-            csv_data = totaal_df.to_csv(
-                index=False,
-                sep=";",
-                encoding="utf-8-sig"
-            ).encode("utf-8-sig")
-
-            datum = datetime.now().strftime("%Y%m%d_%H%M%S")
-            bestandsnaam = f"alle_bankrentes_master_{datum}.csv"
-
-            st.download_button(
-                label="⬇️ Download nieuwe CSV",
-                data=csv_data,
-                file_name=bestandsnaam,
-                mime="text/csv"
-            )
 
         st.success(f"Nieuwe gegevens opgeslagen op {datumtijd}")
 else:
