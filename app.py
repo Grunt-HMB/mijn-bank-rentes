@@ -1,3 +1,11 @@
+import sys
+import asyncio
+import traceback
+import os
+
+if sys.platform.startswith("win"):
+    asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
+
 import streamlit as st
 import pandas as pd
 from datetime import datetime
@@ -23,6 +31,8 @@ st.set_page_config(
 )
 
 st.title("🏦 Centrale Bankrente Scraper")
+
+RESULTATEN_BESTAND = "laatste_bankrentes.csv"
 
 taken = [
     {"naam": "BNP Paribas Fortis", "func": bnp_fortis.scrape},
@@ -59,23 +69,27 @@ def run_scrapers():
             if df is not None and not df.empty:
                 df["Bank opgehaald via"] = naam
                 alle_dataframes.append(df)
+
                 logregels.append({
                     "Bank": naam,
                     "Status": "OK",
-                    "Melding": f"{len(df)} rijen opgehaald"
+                    "Melding": f"{len(df)} rijen opgehaald",
+                    "Details": ""
                 })
             else:
                 logregels.append({
                     "Bank": naam,
                     "Status": "Geen data",
-                    "Melding": "Scraper gaf geen rijen terug"
+                    "Melding": "Scraper gaf geen rijen terug",
+                    "Details": ""
                 })
 
         except Exception as e:
             logregels.append({
                 "Bank": naam,
                 "Status": "Fout",
-                "Melding": str(e)
+                "Melding": repr(e),
+                "Details": traceback.format_exc()
             })
 
         progress.progress(index / totaal_taken)
@@ -92,15 +106,57 @@ def run_scrapers():
     return totaal_df, log_df
 
 
+if os.path.exists(RESULTATEN_BESTAND):
+    st.subheader("📊 Laatste opgeslagen resultaten")
+
+    opgeslagen_df = pd.read_csv(
+        RESULTATEN_BESTAND,
+        sep=";",
+        encoding="utf-8-sig"
+    )
+
+    st.dataframe(opgeslagen_df, use_container_width=True)
+
+    st.info(
+        f"Laatst opgeslagen: "
+        f"{datetime.fromtimestamp(os.path.getmtime(RESULTATEN_BESTAND)).strftime('%d/%m/%Y %H:%M:%S')}"
+    )
+
+    st.markdown("---")
+
+
 if st.button("🚀 Start alle scrapers"):
     totaal_df, log_df = run_scrapers()
 
     st.subheader("📋 Logboek")
     st.dataframe(log_df, use_container_width=True)
 
+    fouten_df = log_df[log_df["Status"] == "Fout"]
+
+    if not fouten_df.empty:
+        st.subheader("❌ Details van fouten")
+
+        for _, rij in fouten_df.iterrows():
+            with st.expander(f"Fout bij {rij['Bank']}"):
+                st.code(rij["Details"])
+
     if not totaal_df.empty:
+        totaal_df.to_csv(
+            RESULTATEN_BESTAND,
+            index=False,
+            sep=";",
+            encoding="utf-8-sig"
+        )
+
         st.subheader("📊 Alle bankrentes")
         st.dataframe(totaal_df, use_container_width=True)
+
+        totaal_df.to_csv(
+            "alle_bankrentes_master.csv",
+            index=False,
+            sep=";",
+            encoding="utf-8-sig"
+        )
 
         csv_data = totaal_df.to_csv(
             index=False,
