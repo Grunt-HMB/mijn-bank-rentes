@@ -1,0 +1,627 @@
+2026-05-30 07:22:47,272 - INFO - Starten met ING België scrape...
+2026-05-30 07:22:47,671 - INFO - Data succesvol opgehaald van API.
+2026-05-30 07:22:47,671 - INFO - Verwerken product: ING Tempo Sparen
+2026-05-30 07:22:47,671 - INFO - Verwerken product: ING Spaarrekening
+2026-05-30 07:22:47,671 - INFO - Verwerken product: ING Oranje Boekje
+2026-05-30 07:22:47,671 - INFO - Verwerken product: ING Lion Deposit
+2026-05-30 07:22:47,671 - INFO - Scrape voltooid. 4 rijen gevonden.
+2026-05-30 07:22:50,088 - INFO - Starten met Santander Consumer Bank scrape...
+2026-05-30 07:22:50,740 - INFO - Santander scrape klaar: 3 producten gevonden.
+2026-05-30 07:58:09,752 - INFO - Starten met ING België scrape...
+2026-05-30 07:58:10,183 - INFO - Data succesvol opgehaald van API.
+2026-05-30 07:58:10,191 - INFO - Verwerken product: ING Tempo Sparen
+2026-05-30 07:58:10,191 - INFO - Verwerken product: ING Spaarrekening
+2026-05-30 07:58:10,191 - INFO - Verwerken product: ING Oranje Boekje
+2026-05-30 07:58:10,191 - INFO - Verwerken product: ING Lion Deposit
+2026-05-30 07:58:10,191 - INFO - Scrape voltooid. 4 rijen gevonden.
+2026-05-30 07:58:12,856 - INFO - Starten met Santander Consumer Bank scrape...
+2026-05-30 07:58:13,521 - INFO - Santander scrape klaar: 3 producten gevonden.
+2026-05-30 08:07:57,424 - INFO - Starten met ING België scrape...
+2026-05-30 08:07:57,848 - INFO - Data succesvol opgehaald van API.
+2026-05-30 08:07:57,848 - INFO - Verwerken product: ING Tempo Sparen
+2026-05-30 08:07:57,848 - INFO - Verwerken product: ING Spaarrekening
+2026-05-30 08:07:57,848 - INFO - Verwerken product: ING Oranje Boekje
+2026-05-30 08:07:57,848 - INFO - Verwerken product: ING Lion Deposit
+2026-05-30 08:07:57,854 - INFO - Scrape voltooid. 4 rijen gevonden.
+2026-05-30 08:08:00,537 - INFO - Starten met Santander Consumer Bank scrape...
+2026-05-30 08:08:01,211 - INFO - Santander scrape klaar: 3 producten gevonden.
+2026-05-30 09:34:36,209 - INFO - Starten met ING België scrape...
+2026-05-30 09:34:36,653 - INFO - Data succesvol opgehaald van API.
+2026-05-30 09:34:36,658 - INFO - Verwerken product: ING Tempo Sparen
+2026-05-30 09:34:36,658 - INFO - Verwerken product: ING Spaarrekening
+2026-05-30 09:34:36,658 - INFO - Verwerken product: ING Oranje Boekje
+2026-05-30 09:34:36,658 - INFO - Verwerken product: ING Lion Deposit
+2026-05-30 09:34:36,658 - INFO - Scrape voltooid. 4 rijen gevonden.
+2026-05-30 09:34:39,240 - INFO - Starten met Santander Consumer Bank scrape...
+2026-05-30 09:34:39,924 - INFO - Santander scrape klaar: 3 producten gevonden.
+2026-06-05 14:21:00,677 - INFO - Starten met ING België scrape...
+2026-06-05 14:21:01,064 - INFO - Data succesvol opgehaald van API.
+2026-06-05 14:21:01,069 - INFO - Verwerken product: ING Tempo Sparen
+2026-06-05 14:21:01,069 - INFO - Verwerken product: ING Spaarrekening
+2026-06-05 14:21:01,069 - INFO - Verwerken product: ING Oranje Boekje
+2026-06-05 14:21:01,069 - INFO - Verwerken product: ING Lion Deposit
+2026-06-05 14:21:01,077 - INFO - Scrape voltooid. 4 rijen gevonden.
+2026-06-05 14:21:03,654 - INFO - Starten met Santander Consumer Bank scrape...
+2026-06-05 14:21:04,333 - INFO - Santander scrape klaar: 3 producten gevonden.
+2026-06-11 15:38:58,162 - INFO - Starten met ING België scrape...
+2026-06-11 15:38:58,631 - INFO - Data succesvol opgehaald van API.
+2026-06-11 15:38:58,636 - INFO - Verwerken product: ING Tempo Sparen
+2026-06-11 15:38:58,636 - INFO - Verwerken product: ING Spaarrekening
+2026-06-11 15:38:58,636 - INFO - Verwerken product: ING Oranje Boekje
+2026-06-11 15:38:58,636 - INFO - Verwerken product: ING Lion Deposit
+2026-06-11 15:38:58,638 - INFO - Scrape voltooid. 4 rijen gevonden.
+2026-06-11 15:39:01,269 - INFO - Starten met Santander Consumer Bank scrape...
+2026-06-11 15:39:01,969 - INFO - Santander scrape klaar: 3 producten gevonden.
+2026-06-19 07:14:41,703 - INFO - Starten met ING België scrape...
+2026-06-19 07:14:42,087 - INFO - Data succesvol opgehaald van API.
+2026-06-19 07:14:42,087 - INFO - Verwerken product: ING Tempo Sparen
+2026-06-19 07:14:42,087 - INFO - Verwerken product: ING Spaarrekening
+2026-06-19 07:14:42,087 - INFO - Verwerken product: ING Oranje Boekje
+2026-06-19 07:14:42,087 - INFO - Verwerken product: ING Lion Deposit
+2026-06-19 07:14:42,103 - INFO - Scrape voltooid. 4 rijen gevonden.
+2026-06-19 07:14:45,368 - INFO - Starten met Santander Consumer Bank scrape...
+2026-06-19 07:14:46,050 - INFO - Santander scrape klaar: 3 producten gevonden.
+2026-06-20 09:21:31,332 - INFO - Starten met ING België scrape...
+2026-06-20 09:21:31,432 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\app.py", line 57, in run_scrapers
+    df = taak["func"]()
+         ^^^^^^^^^^^^^^
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\scrapers\belfius.py", line 9, in scrape
+    with sync_playwright() as p:
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 303, in run_as_sync
+    await self.run()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.connect()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2026-06-20 09:21:31,727 - INFO - Data succesvol opgehaald van API.
+2026-06-20 09:21:31,732 - INFO - Verwerken product: ING Tempo Sparen
+2026-06-20 09:21:31,732 - INFO - Verwerken product: ING Spaarrekening
+2026-06-20 09:21:31,732 - INFO - Verwerken product: ING Oranje Boekje
+2026-06-20 09:21:31,732 - INFO - Verwerken product: ING Lion Deposit
+2026-06-20 09:21:31,740 - INFO - Scrape voltooid. 4 rijen gevonden.
+2026-06-20 09:21:31,741 - INFO - Starten met Santander Consumer Bank scrape...
+2026-06-20 09:21:31,758 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\app.py", line 57, in run_scrapers
+    df = taak["func"]()
+         ^^^^^^^^^^^^^^
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\scrapers\kbc.py", line 9, in scrape_kbc
+    with sync_playwright() as p:
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 303, in run_as_sync
+    await self.run()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.connect()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2026-06-20 09:21:32,410 - INFO - Santander scrape klaar: 3 producten gevonden.
+2026-06-20 09:21:32,440 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\app.py", line 57, in run_scrapers
+    df = taak["func"]()
+         ^^^^^^^^^^^^^^
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\scrapers\medirect.py", line 9, in scrape_medirect_volledig
+    with sync_playwright() as p:
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 303, in run_as_sync
+    await self.run()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.connect()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2026-06-20 09:21:32,442 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\app.py", line 57, in run_scrapers
+    df = taak["func"]()
+         ^^^^^^^^^^^^^^
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\scrapers\nibc.py", line 9, in scrape_nibc
+    with sync_playwright() as p:
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 303, in run_as_sync
+    await self.run()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.connect()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2026-06-20 09:21:32,443 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\app.py", line 57, in run_scrapers
+    df = taak["func"]()
+         ^^^^^^^^^^^^^^
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\scrapers\cbc.py", line 10, in scrape_cbc
+    with sync_playwright() as p:
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 303, in run_as_sync
+    await self.run()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.connect()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2026-06-20 09:21:32,443 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\app.py", line 57, in run_scrapers
+    df = taak["func"]()
+         ^^^^^^^^^^^^^^
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\scrapers\argenta.py", line 9, in scrape_argenta
+    with sync_playwright() as p:
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 303, in run_as_sync
+    await self.run()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.connect()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2026-06-20 09:21:32,831 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\app.py", line 57, in run_scrapers
+    df = taak["func"]()
+         ^^^^^^^^^^^^^^
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\scrapers\cph.py", line 9, in scrape_cph
+    with sync_playwright() as p:
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 303, in run_as_sync
+    await self.run()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.connect()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2026-06-20 09:21:32,839 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\app.py", line 57, in run_scrapers
+    df = taak["func"]()
+         ^^^^^^^^^^^^^^
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\scrapers\crelan.py", line 9, in scrape_crelan
+    with sync_playwright() as p:
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 303, in run_as_sync
+    await self.run()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.connect()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2026-06-20 09:22:16,043 - INFO - Starten met ING België scrape...
+2026-06-20 09:22:16,431 - INFO - Data succesvol opgehaald van API.
+2026-06-20 09:22:16,431 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\app.py", line 57, in run_scrapers
+    df = taak["func"]()
+         ^^^^^^^^^^^^^^
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\scrapers\belfius.py", line 9, in scrape
+    with sync_playwright() as p:
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 303, in run_as_sync
+    await self.run()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.connect()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2026-06-20 09:22:16,439 - INFO - Verwerken product: ING Tempo Sparen
+2026-06-20 09:22:16,439 - INFO - Verwerken product: ING Spaarrekening
+2026-06-20 09:22:16,439 - INFO - Verwerken product: ING Oranje Boekje
+2026-06-20 09:22:16,439 - INFO - Verwerken product: ING Lion Deposit
+2026-06-20 09:22:16,439 - INFO - Scrape voltooid. 4 rijen gevonden.
+2026-06-20 09:22:16,446 - INFO - Starten met Santander Consumer Bank scrape...
+2026-06-20 09:22:17,090 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\app.py", line 57, in run_scrapers
+    df = taak["func"]()
+         ^^^^^^^^^^^^^^
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\scrapers\kbc.py", line 9, in scrape_kbc
+    with sync_playwright() as p:
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 303, in run_as_sync
+    await self.run()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.connect()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2026-06-20 09:22:17,106 - INFO - Santander scrape klaar: 3 producten gevonden.
+2026-06-20 09:22:17,122 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\app.py", line 57, in run_scrapers
+    df = taak["func"]()
+         ^^^^^^^^^^^^^^
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\scrapers\medirect.py", line 9, in scrape_medirect_volledig
+    with sync_playwright() as p:
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 303, in run_as_sync
+    await self.run()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.connect()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2026-06-20 09:22:17,513 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\app.py", line 57, in run_scrapers
+    df = taak["func"]()
+         ^^^^^^^^^^^^^^
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\scrapers\nibc.py", line 9, in scrape_nibc
+    with sync_playwright() as p:
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 303, in run_as_sync
+    await self.run()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.connect()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2026-06-20 09:22:17,514 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\app.py", line 57, in run_scrapers
+    df = taak["func"]()
+         ^^^^^^^^^^^^^^
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\scrapers\cbc.py", line 10, in scrape_cbc
+    with sync_playwright() as p:
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 303, in run_as_sync
+    await self.run()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.connect()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2026-06-20 09:22:17,515 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\app.py", line 57, in run_scrapers
+    df = taak["func"]()
+         ^^^^^^^^^^^^^^
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\scrapers\argenta.py", line 9, in scrape_argenta
+    with sync_playwright() as p:
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 303, in run_as_sync
+    await self.run()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.connect()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2026-06-20 09:22:17,516 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\app.py", line 57, in run_scrapers
+    df = taak["func"]()
+         ^^^^^^^^^^^^^^
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\scrapers\crelan.py", line 9, in scrape_crelan
+    with sync_playwright() as p:
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 303, in run_as_sync
+    await self.run()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.connect()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2026-06-20 09:22:17,517 - ERROR - Future exception was never retrieved
+future: <Future finished exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\app.py", line 57, in run_scrapers
+    df = taak["func"]()
+         ^^^^^^^^^^^^^^
+  File "C:\Users\tomba\Downloads\Pythonscripts\Spaarrentes\scrapers\cph.py", line 9, in scrape_cph
+    with sync_playwright() as p:
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 303, in run_as_sync
+    await self.run()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.connect()
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomba\AppData\Local\Python\pythoncore-3.11-64\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2026-06-20 09:24:01,799 - INFO - Starten met ING België scrape...
+2026-06-20 09:24:02,173 - INFO - Data succesvol opgehaald van API.
+2026-06-20 09:24:02,173 - INFO - Verwerken product: ING Tempo Sparen
+2026-06-20 09:24:02,173 - INFO - Verwerken product: ING Spaarrekening
+2026-06-20 09:24:02,173 - INFO - Verwerken product: ING Oranje Boekje
+2026-06-20 09:24:02,173 - INFO - Verwerken product: ING Lion Deposit
+2026-06-20 09:24:02,180 - INFO - Scrape voltooid. 4 rijen gevonden.
+2026-06-20 09:24:05,466 - INFO - Starten met Santander Consumer Bank scrape...
+2026-06-20 09:24:06,123 - INFO - Santander scrape klaar: 3 producten gevonden.
+2026-06-20 09:33:40,956 - INFO - Starten met ING België scrape...
+2026-06-20 09:33:41,325 - INFO - Data succesvol opgehaald van API.
+2026-06-20 09:33:41,332 - INFO - Verwerken product: ING Tempo Sparen
+2026-06-20 09:33:41,332 - INFO - Verwerken product: ING Spaarrekening
+2026-06-20 09:33:41,332 - INFO - Verwerken product: ING Oranje Boekje
+2026-06-20 09:33:41,332 - INFO - Verwerken product: ING Lion Deposit
+2026-06-20 09:33:41,332 - INFO - Scrape voltooid. 4 rijen gevonden.
+2026-06-20 09:33:44,644 - INFO - Starten met Santander Consumer Bank scrape...
+2026-06-20 09:33:45,372 - INFO - Santander scrape klaar: 3 producten gevonden.
