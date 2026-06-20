@@ -112,10 +112,14 @@ def toon_laatste_resultaat():
     if os.path.exists(LAATSTE_TIJD):
         with open(LAATSTE_TIJD, "r", encoding="utf-8") as f:
             laatste_tijd = f.read().strip()
+
         st.info(f"Laatste run: {laatste_tijd}")
+    else:
+        st.info("Nog geen vorige run gevonden.")
 
     if os.path.exists(LAATSTE_CSV):
         st.subheader("📊 Laatste opgeslagen bankrentes")
+
         df = pd.read_csv(LAATSTE_CSV, sep=";", encoding="utf-8-sig")
         st.dataframe(df, use_container_width=True)
 
@@ -132,7 +136,12 @@ def toon_laatste_resultaat():
             mime="text/csv"
         )
     else:
-        st.info("Nog geen vorige resultaten gevonden.")
+        st.info("Nog geen opgeslagen bankrentes beschikbaar.")
+
+    if os.path.exists(LAATSTE_LOG):
+        with st.expander("📋 Laatste logboek bekijken"):
+            log_df = pd.read_csv(LAATSTE_LOG, sep=";", encoding="utf-8-sig")
+            st.dataframe(log_df, use_container_width=True)
 
 
 def wachtwoord_ok():
@@ -143,12 +152,16 @@ def wachtwoord_ok():
         type="password"
     )
 
-    juist = st.secrets.get("APP_PASSWORD", "")
+    juist_wachtwoord = st.secrets.get("APP_PASSWORD", "")
 
     if wachtwoord == "":
         return False
 
-    if wachtwoord == juist:
+    if juist_wachtwoord == "":
+        st.sidebar.error("APP_PASSWORD ontbreekt in Streamlit Secrets.")
+        return False
+
+    if wachtwoord == juist_wachtwoord:
         st.sidebar.success("Toegang OK")
         return True
 
@@ -184,9 +197,34 @@ if wachtwoord_ok():
         st.subheader("📋 Logboek")
         st.dataframe(log_df, use_container_width=True)
 
+        fouten_df = log_df[log_df["Status"] == "Fout"]
+
+        if not fouten_df.empty:
+            st.subheader("❌ Details van fouten")
+
+            for _, rij in fouten_df.iterrows():
+                with st.expander(f"Fout bij {rij['Bank']}"):
+                    st.code(rij["Details"])
+
         if not totaal_df.empty:
             st.subheader("📊 Nieuwe bankrentes")
             st.dataframe(totaal_df, use_container_width=True)
+
+            csv_data = totaal_df.to_csv(
+                index=False,
+                sep=";",
+                encoding="utf-8-sig"
+            ).encode("utf-8-sig")
+
+            datum = datetime.now().strftime("%Y%m%d_%H%M%S")
+            bestandsnaam = f"alle_bankrentes_master_{datum}.csv"
+
+            st.download_button(
+                label="⬇️ Download nieuwe CSV",
+                data=csv_data,
+                file_name=bestandsnaam,
+                mime="text/csv"
+            )
 
         st.success(f"Nieuwe gegevens opgeslagen op {datumtijd}")
 else:
