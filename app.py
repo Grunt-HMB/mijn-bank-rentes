@@ -1,6 +1,7 @@
 import sys
 import asyncio
 import traceback
+import os
 
 if sys.platform.startswith("win"):
     asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
@@ -30,6 +31,9 @@ st.set_page_config(
 )
 
 st.title("🏦 Centrale Bankrente Scraper")
+
+CSV_BESTAND = "laatste_resultaten.csv"
+DATUM_BESTAND = "laatste_run.txt"
 
 taken = [
     {"naam": "BNP Paribas Fortis", "func": bnp_fortis.scrape},
@@ -103,6 +107,25 @@ def run_scrapers():
     return totaal_df, log_df
 
 
+# Vorige resultaten tonen bij openen/verversen
+if os.path.exists(DATUM_BESTAND):
+    with open(DATUM_BESTAND, "r", encoding="utf-8") as f:
+        laatste_run = f.read().strip()
+
+    st.info(f"📅 Laatste update: {laatste_run}")
+
+if os.path.exists(CSV_BESTAND):
+    st.subheader("📊 Laatste bekende resultaten")
+
+    vorig_df = pd.read_csv(
+        CSV_BESTAND,
+        sep=";",
+        encoding="utf-8-sig"
+    )
+
+    st.dataframe(vorig_df, use_container_width=True)
+
+
 if st.button("🚀 Start alle scrapers"):
     totaal_df, log_df = run_scrapers()
 
@@ -119,7 +142,17 @@ if st.button("🚀 Start alle scrapers"):
                 st.code(rij["Details"])
 
     if not totaal_df.empty:
-        st.subheader("📊 Alle bankrentes")
+        totaal_df.to_csv(
+            CSV_BESTAND,
+            index=False,
+            sep=";",
+            encoding="utf-8-sig"
+        )
+
+        with open(DATUM_BESTAND, "w", encoding="utf-8") as f:
+            f.write(datetime.now().strftime("%d/%m/%Y %H:%M:%S"))
+
+        st.subheader("📊 Nieuwe bankrentes")
         st.dataframe(totaal_df, use_container_width=True)
 
         csv_data = totaal_df.to_csv(
@@ -140,4 +173,4 @@ if st.button("🚀 Start alle scrapers"):
     else:
         st.warning("Geen data gevonden om op te slaan.")
 else:
-    st.info("Klik op de knop om de bankrentes op te halen.")
+    st.info("Klik op de knop om de bankrentes opnieuw op te halen.")
